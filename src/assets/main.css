@@ -1,13 +1,22 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: 'ProximaNova', sans-serif;
+
 }
 .container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding: 12px;
 
   @media (min-width: 1440px) {
-    max-width: 932px;
+    max-width: 1240px;
   }
+}
+@font-face {
+  font-family: 'ProximaNova'; /* Имя для использования в CSS */
+  src: url('./assets/fonts/proximanova_regular.ttf') format('truetype'); /* Путь к файлу .ttf */
+  font-weight: normal; /* Начертание */
+  font-style: normal; /* Стиль */
 }

@@ -16,16 +16,16 @@
       <div class="header2__main__contact">
         <ul class="header2__main__contact__list">
           <li>
-            <img src="@/assets/headerIMG/geo.png" alt="">
+            <img src="../../assets/headerIMG/geo.png" alt="">
             <span>Санкт-Петербург</span>
-            <img src="@/assets/headerIMG/arrow-down.png" alt="">
+            <img src="../../assets/headerIMG/arrow-down.png" alt="">
           </li>
           <li>
-            <img src="@/assets/headerIMG/phone.png" alt="">
+            <img src="../../assets/headerIMG/phone.png" alt="">
             <span>8 812 309-82-88</span>
           </li>
           <li>
-            <img src="@/assets/headerIMG/bag.png" alt="">
+            <img src="../../assets/headerIMG/bag2.png" alt="">
             <span>В корзине (4 товара)</span>
           </li>
         </ul>
@@ -33,13 +33,13 @@
       <div class="header2__main__social">
         <ul class="header2__main__social__list">
           <li>
-            <img src="@/assets/headerIMG/tg.png" alt="">
+            <img src="../../assets/headerIMG/tg.png" alt="">
           </li>
           <li>
-            <img src="@/assets/headerIMG/vk.png" alt="">
+            <img src="../../assets/headerIMG/vk.png" alt="">
           </li>
           <li>
-            <img src="@/assets/headerIMG/ok.png" alt="">
+            <img src="../../assets/headerIMG/ok.png" alt="">
           </li>
         </ul>
       </div>
@@ -71,7 +71,7 @@
   list-style: none;
   gap: 10px;
   padding: 0;
-  margin: 12px;
+
 }
 
 .header2__main__nav__list li,
@@ -79,9 +79,9 @@
 .header2__main__social__list li {
   display: inline-flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
-@media  (max-width: 834px) {
+@media  (max-width: 1026px) {
   .header2 {
     display: none;
   }
